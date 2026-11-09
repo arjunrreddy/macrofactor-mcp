@@ -98,7 +98,7 @@ export function weekdayOf(date: string): string {
 // The user's home timezone — set this to YOUR IANA timezone (e.g. "America/New_York").
 // "Today" on this single-user server means the owner's local calendar date: resolving it
 // in the wrong zone lands post-midnight /today posts on the previous day's live row.
-const USER_TZ = "UTC";
+const USER_TZ = "America/Chicago";
 
 export function todayLocal(): string {
   // en-CA formats as YYYY-MM-DD
